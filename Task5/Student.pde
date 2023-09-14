@@ -17,5 +17,3 @@ class Student{
      return "name: " + name + "\n" + "age: " + age + "\n"+ "Is Female: " + isFemale + "\n" + "datamatikerTeam: " + datamatikerTeam;
   }
 }
-  
-  

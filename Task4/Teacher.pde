@@ -15,7 +15,12 @@ class Teacher{
   
     String getInfo(){ 
     return "name: " + name + "\n" + "age: " + age + "\n"+ "Is Female: " + isFemale;
-   
-    
+ 
+}
+
+void changeName(String newName){
+  name = newName;
+  //println(name);
+
 }
 }

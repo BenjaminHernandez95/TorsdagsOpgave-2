@@ -1,7 +1,10 @@
 void setup(){
   
-  Teacher t = new Teacher("Tess",33,true);
-  println(t.getInfo());
+ Teacher t = new Teacher("Steffen",40,false);
+  //println(t.name); 
+  t.changeName("Ali");
+  println(t.name); 
+  //t.changeName("Jens");
   
   Student s = new Student("Benjamin",28,false,"D");
   println(s.getInfo());
