@@ -23,6 +23,8 @@ boolean happy = true;
    
    //2.d
    println(firstLetter("benjamin"));
+   println(checkUpper("Benjamin"));
+
 }
 
 //2.a
@@ -68,4 +70,11 @@ String firstLetter(String name){
   }
    return firstPart + secondPart;
 
+}
+
+
+boolean checkUpper(String name){
+  
+  
+return Character.isUpperCase(name.charAt(0));
 }
